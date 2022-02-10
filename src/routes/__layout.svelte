@@ -1,0 +1,29 @@
+<header class="fixed inset-x-0 [padding-inline:clamp(theme('spacing.4'),2vw,theme('spacing.6'))] py-3 flex items-center bg-white">
+  <nav
+    class="max-w-[90rem] [margin-inline:auto] flex grow items-center justify-between"
+    aria-label="Main navigation"
+  >
+    <a href="/" class="w-44 sm:w-64 fill-current">
+      <img src={logo} alt="Logo: Génio Reis, Design e Construção">
+    </a>
+
+    <div class="flex gap-1 items-center">
+      <LanguageSelector class="hidden sm:block" />
+      <a class="flex items-center justify-center w-12 h-12" href="tel:+351911013350">
+        <SharpPhone/>
+      </a>
+    </div>
+  </nav>
+</header>
+
+<slot />
+
+<Footer />
+
+<script>
+import '~/assets/css/tailwind.css'
+import logo from '~/assets/svg/logo.svg'
+import SharpPhone from '~icons/ic/sharp-phone'
+import LanguageSelector from '~/components/LanguageSelector.svelte';
+import Footer from '~/components/footer/Footer.svelte';
+</script>

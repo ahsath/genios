@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Greycliff CF';
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/greycliff/300-light.woff2') format('woff2'),
+    url('../fonts/greycliff/300-light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Greycliff CF';
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/greycliff/400-normal.woff2') format('woff2'),
+    url('../fonts/greycliff/400-normal.woff') format('woff');
+}
+@font-face {
+  font-family: 'Greycliff CF';
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/greycliff/600-semi-bold.woff2') format('woff2'),
+    url('../fonts/greycliff/600-semi-bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Greycliff CF';
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/greycliff/700-bold.woff2') format('woff2'),
+    url('../fonts/greycliff/700-bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Scheherazade New';
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/scheherazade/400-normal.woff2') format('woff2'),
+    url('../fonts/scheherazade/400-normal.woff') format('woff');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
