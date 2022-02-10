@@ -16,7 +16,7 @@ export async function get() {
 
   try {
     const { data } = await (
-      await fetch(`http://localhost:1337/api/properties?${query}`)
+      await fetch(`https://stage.genioreis.com/api/properties?${query}`)
     ).json();
 
     return {
