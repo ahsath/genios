@@ -6,5 +6,5 @@
 [context.staging]
   command = "npm run build"
   publish = "build"
-  [context.production.environment]
+  [context.staging.environment]
     API_BASE_URL = "https://stage.genioreis.com/api"
