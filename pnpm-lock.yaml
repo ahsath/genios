@@ -22,7 +22,7 @@ devDependencies:
   '@iconify-json/ic': 1.0.8
   '@sveltejs/adapter-auto': 1.0.0-next.17
   '@sveltejs/adapter-netlify': 1.0.0-next.44
-  '@sveltejs/kit': 1.0.0-next.268_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.269_svelte@3.46.4
   autoprefixer: 10.4.2_postcss@8.4.6
   dotenv: 16.0.0
   postcss: 8.4.6
@@ -156,8 +156,8 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.268_svelte@3.46.4:
-    resolution: {integrity: sha512-mFa6UxVuBqVSFCJcIvH/FWbwDuAD9fwhKfRaaY0IQEFPmxN1+I1m9msMmFzha5HJrImjg/9L9N62WxNYxe9bdw==}
+  /@sveltejs/kit/1.0.0-next.269_svelte@3.46.4:
+    resolution: {integrity: sha512-Z6BqG/vo1IYPy2mW5r0mHHY5JsOAWrbBQuJFfG2aANxWQSIfWhZ/U35Ndk4Un4SlOT0QIgmeSz6qB8nJvuclbQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
