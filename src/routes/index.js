@@ -16,6 +16,7 @@ export async function get() {
   );
 
   try {
+    console.log(process.env.API_BASE_URL);
     const res = await fetch(`${process.env.API_BASE_URL}/properties?${query}`);
     const { data } = await res.json();
 

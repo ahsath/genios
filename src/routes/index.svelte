@@ -1,5 +1,5 @@
 <svelte:head>
-<title>Génios Reis | Contemporary House Maker (Staging)</title>
+<title>Génios Reis | Contemporary House Maker</title>
 </svelte:head>
 
 <Container class="grid gap-4 sm:gap-6">
