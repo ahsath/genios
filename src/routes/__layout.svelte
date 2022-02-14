@@ -26,4 +26,7 @@ import logo from '~/assets/svg/logo.svg'
 import SharpPhone from '~icons/ic/sharp-phone'
 import LanguageSelector from '~/components/LanguageSelector.svelte';
 import Footer from '~/components/footer/Footer.svelte';
+import { onMount } from 'svelte';
+
+onMount(() => window.mediumZoom('[data-zoomable]'))
 </script>
