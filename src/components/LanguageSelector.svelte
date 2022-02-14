@@ -1,4 +1,4 @@
-<div class={`relative w-min ${$$props.class || ''}`}>
+<div class="relative w-min {$$props.class || ''}">
   <div
     class="flex items-center justify-center absolute top-0 left-0 w-10 h-full pointer-events-none"
   >
