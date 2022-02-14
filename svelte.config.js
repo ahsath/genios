@@ -1,6 +1,7 @@
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-netlify';
 import Icons from 'unplugin-icons/vite';
+import 'dotenv/config';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -21,6 +22,11 @@ const config = {
           },
         }),
       ],
+      server: {
+        proxy: {
+          '/uploads': process.env.BASE_URL,
+        },
+      },
     },
   },
   preprocess: [
