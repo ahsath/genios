@@ -1,6 +1,4 @@
-<svelte:head>
-<title>Génios Reis | Contemporary House Maker</title>
-</svelte:head>
+<!-- <Metatags {metatags}/> -->
 
 <Container class="grid gap-4 sm:gap-6">
   <!-- <h1 class="[font-size:clamp(1.5rem,2.5vw,2.25rem)] tracking-wide leading-tight font-bold uppercase pt-20">Genios</h1>
@@ -11,8 +9,13 @@
 </Container>
 
 <script>
+import { onMount } from 'svelte';
 import PropertyCard from "~/components/PropertyCard.svelte";
 import Container from "~/components/Container.svelte";
+import Metatags from "~/components/Metatags.svelte";
 
 export let properties
+export let metatags
+
+onMount(() => window.mediumZoom('[data-zoomable]'))
 </script>
