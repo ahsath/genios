@@ -1,4 +1,4 @@
-<footer class="flex flex-col items-center gap-10 px-6 pt-20 pb-6">
+<footer class="flex flex-col items-center gap-8 px-6 pt-20 pb-4">
   <LanguageSelector class="sm:self-start" />
   <Contact />
   <Copy />
