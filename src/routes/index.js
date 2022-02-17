@@ -13,7 +13,7 @@ export async function get({ request }) {
         query: stringify(
           {
             locale: getLocale(locale),
-            fields: ['title', 'locality', 'price', 'slug'],
+            fields: ['title', 'locality', 'price', 'slug', 'linkDisplayText'],
             populate: {
               image: {
                 fields: ['formats'],

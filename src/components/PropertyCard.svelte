@@ -21,6 +21,7 @@
         <div class="text-sm sm:text-base tracking-widest">{ property.price }</div>
       </div>
       <a href="/houses/{property.slug}" class="sm:text-xl text-sky-600">See</a>
+      <a href="/houses/{property.slug}" class="sm:text-xl text-sky-600">{property.linkDisplayText}</a>
     </div>
   </div>
 </template>
