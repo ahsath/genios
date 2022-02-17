@@ -21,9 +21,13 @@
 <Footer />
 
 <script>
+import { onMount } from 'svelte';
 import '~/assets/css/tailwind.css'
 import logo from '~/assets/svg/logo.svg'
 import SharpPhone from '~icons/ic/sharp-phone'
 import LanguageSelector from '~/components/LanguageSelector.svelte';
 import Footer from '~/components/footer/Footer.svelte';
+import locale from '~/composables/useLocale';
+    
+onMount(() => document.documentElement.lang = locale.value)
 </script>
