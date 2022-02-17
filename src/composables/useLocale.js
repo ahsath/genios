@@ -13,9 +13,11 @@ if (!supportedLocales.includes(locale.value)) {
 
     if (supportedLocales.includes(browserLang)) {
       Cookies.set('locale', browserLang, cookieAttrs);
+      window.location.reload();
       locale.value = Cookies.get('locale');
     } else {
       Cookies.set('locale', 'en', cookieAttrs);
+      window.location.reload();
       locale.value = Cookies.get('locale');
     }
   }
