@@ -37,3 +37,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+[role='tablist']:not([aria-selected='false']) {
+  @apply text-black/60;
+}
+[role='tablist'] > [aria-selected='true'] {
+  color: black;
+}
