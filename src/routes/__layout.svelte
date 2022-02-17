@@ -9,7 +9,7 @@
 
     <div class="flex gap-1 items-center">
       <LanguageSelector class="hidden sm:block" />
-      <a class="flex items-center justify-center w-12 h-12" href="tel:+351911013350">
+      <a class="flex items-center justify-center w-12 h-12" href={footer.data.networks.find(network => network.link.startsWith('tel')).link}>
         <SharpPhone/>
       </a>
     </div>
