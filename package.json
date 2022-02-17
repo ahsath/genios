@@ -23,6 +23,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@vueuse/core": "^7.6.2",
     "js-cookie": "^3.0.1",
     "qs": "^6.10.3",
     "vue": "^3.2.31"
